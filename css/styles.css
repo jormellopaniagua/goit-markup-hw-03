@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --main-color: rgba(255, 255, 255, 1);
+  --primary-color: rgba(47, 48, 58, 1);
+  --webstudio-color: rgba(33, 150, 243, 1);
+  --text-color: rgba(33, 33, 33, 1);
+  --paragraph-color: rgba(117, 117, 117, 1);
+  --filter-color: rgba(245, 244, 250, 1);
+}
+body {
+  color: var(--text-color, black);
+  background-color: var(--main-color, white);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.list .link:hover {
+  color: var(--webstudio-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.fondoOscuro {
+  background-color: var(--primary-color);
+  width: 1600px;
+  height: 600;
+  text-align: center;
+}
+.webstudio {
+  color: var(--webstudio-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+.textNavigation {
+  color: var(--text-color);
+  letter-spacing: 0.02em;
+}
+.list .linkNavigation {
+  color: var(--webstudio-color, rgb(30, 123, 185));
+  letter-spacing: 0.02em;
+}
+.whiteNavigation {
+  color: var(--main-color, white);
+  line-height: 1.71;
+}
+.grayNavigation {
+  color: rgb(255, 255, 255, 0.6);
+  line-height: 1.71;
+}
+.solutions {
+  color: var(--main-color, white);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.featureTitle {
+  font-weight: 700;
+  line-height: 1.17;
+}
+.feature {
+  color: var(--paragraph-color, black);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.nosotros {
+  font-size: 36px;
+  font-weight: 700;
+}
+.name {
+  font-size: 16px;
+}
+.profession {
+  color: var(--paragraph-color, black);
+}
+.button {
+  background-color: var(--webstudio-color, rgb(33, 147, 243));
+  color: var(--main-color, white);
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border-style: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0, 15);
+}
+.list .button {
+  background-color: var(--filter-color, rgb(200, 206, 209));
+  color: var(--text-color, rgb(63, 53, 53));
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border-style: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0, 15);
+}
+.list .all {
+  color: var(--main-color);
+  background-color: var(--webstudio-color);
+}
+.list .button:hover {
+  color: var(--main-color);
+  background-color: var(--webstudio-color);
+}
+.list .proyectTitle {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.list .proyect {
+  color: var(--paragraph-color, black);
+  font-size: 16px;
+  line-height: 1.87;
+}
