@@ -26,12 +26,14 @@ body {
 }
 .list {
   list-style: none;
+  display: flex;
 }
 .fondoOscuro {
   background-color: var(--primary-color);
   width: 1600px;
-  height: 600;
-  text-align: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 .webstudio {
   color: var(--webstudio-color);
@@ -62,6 +64,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+  align-self: center;
 }
 .featureTitle {
   font-weight: 700;
@@ -75,6 +78,8 @@ body {
 .nosotros {
   font-size: 36px;
   font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .name {
   font-size: 16px;
@@ -94,6 +99,7 @@ body {
   border-style: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0, 15);
+  align-self: center;
 }
 .list .button {
   background-color: var(--filter-color, rgb(200, 206, 209));
@@ -126,4 +132,54 @@ body {
   color: var(--paragraph-color, black);
   font-size: 16px;
   line-height: 1.87;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 1200px;
+  align-self: center;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.p-0 {
+  padding: 0%;
+}
+.header {
+  display: flex;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.card_set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.worker {
+  background-color: var(--main-color);
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  flex-basis: calc((100% - 3 * 23px) / 4);
+}
+.equip {
+  background-color: rgba(245, 244, 250, 1);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.photo {
+  object-fit: fill;
+}
+.item {
+  flex-basis: calc((100% - 2 * 23px) / 3);
+}
+.about_us {
+  padding-bottom: 50px;
+}
+.foot_height {
+  height: 252px;
 }
