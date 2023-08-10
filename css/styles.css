@@ -27,13 +27,14 @@ body {
 .list {
   list-style: none;
   display: flex;
+  gap: 10px;
 }
 .fondoOscuro {
   background-color: var(--primary-color);
   width: 1600px;
-  height: 600px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .webstudio {
   color: var(--webstudio-color);
@@ -148,10 +149,13 @@ body {
 }
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .footer {
   display: flex;
   flex-direction: column;
+  gap: 0px;
 }
 .card_set {
   display: flex;
@@ -168,18 +172,38 @@ body {
 }
 .equip {
   background-color: rgba(245, 244, 250, 1);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .photo {
   object-fit: fill;
 }
 .item {
   flex-basis: calc((100% - 2 * 23px) / 3);
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
 }
 .about_us {
   padding-bottom: 50px;
 }
-.foot_height {
-  height: 252px;
+.feature_item {
+  flex-basis: calc((100% - 3 * 23px) / 4);
+}
+.feature_height {
+  display: flex;
+  align-items: center;
+}
+.proyect_section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.filter {
+  display: flex;
+  justify-content: center;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
