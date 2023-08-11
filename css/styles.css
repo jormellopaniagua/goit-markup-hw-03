@@ -32,12 +32,6 @@ body {
   display: flex;
   gap: 10px;
 }
-.fondoOscuro {
-  background-color: var(--primary-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .webstudio {
   color: var(--webstudio-color);
   font-family: 'Raleway', sans-serif;
@@ -59,6 +53,12 @@ body {
 .grayNavigation {
   color: rgb(255, 255, 255, 0.6);
   line-height: 1.71;
+}
+.fondoOscuro {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .solutions {
   color: var(--main-color, white);
