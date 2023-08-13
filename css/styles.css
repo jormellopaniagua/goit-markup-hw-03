@@ -130,6 +130,10 @@ body {
   color: var(--main-color);
   background-color: var(--webstudio-color);
 }
+.list .button:focus {
+  color: var(--main-color);
+  background-color: var(--webstudio-color);
+}
 .list .proyectTitle {
   font-size: 18px;
   font-weight: 700;
@@ -219,4 +223,7 @@ header {
 }
 .gap {
   gap: 50px;
+}
+.filter_group {
+  padding-bottom: 54px;
 }
