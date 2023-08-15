@@ -94,8 +94,8 @@ body {
 .button {
   background-color: var(--webstudio-color, rgb(33, 147, 243));
   color: var(--main-color, white);
-  width: 261px;
-  height: 50px;
+  /*width: 261px;
+  height: 50px;*/
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -106,6 +106,7 @@ body {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0, 15);
   align-self: center;
+  padding: 10px 32px;
 }
 .list .button {
   background-color: var(--filter-color, rgb(200, 206, 209));
@@ -119,9 +120,9 @@ body {
   border-style: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0, 15);
-  padding: 1px 6px 1px 6px;
-  width: max-content;
-  height: max-content;
+  padding: 6px 26px;
+  /*width: max-content;
+  height: max-content;*/
 }
 .list .all {
   color: var(--main-color);
